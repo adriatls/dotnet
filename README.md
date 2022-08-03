@@ -30,7 +30,7 @@ As camadas, de acordo com o que está recomendado na Meta S.M.A.R.T, seguindo um
 dotnet new sln --name NomeDaSolucao
 ~~~
 
-**4 -** Adicionar todas as camadas na solução:
+**4 -** Adicionar cada camada (projeto) na solução:
 ~~~
 dotnet sln NomeDaSolucao.sln add ./NomeDaCamada/NomeDaCamada.csproj
 ~~~
